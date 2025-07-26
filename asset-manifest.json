@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lb-deluxe/static/css/main.44992345.css",
+    "main.css": "/lb-deluxe/static/css/main.e6448967.css",
     "main.js": "/lb-deluxe/static/js/main.02b280b7.js",
     "static/media/Noah Text Heavy.ttf": "/lb-deluxe/static/media/Noah Text Heavy.1582614767b27fcdcae5.ttf",
     "static/media/deluxenegro.png": "/lb-deluxe/static/media/deluxenegro.4909d6812ccd6dacc61a.png",
     "index.html": "/lb-deluxe/index.html",
-    "main.44992345.css.map": "/lb-deluxe/static/css/main.44992345.css.map",
+    "main.e6448967.css.map": "/lb-deluxe/static/css/main.e6448967.css.map",
     "main.02b280b7.js.map": "/lb-deluxe/static/js/main.02b280b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.44992345.css",
+    "static/css/main.e6448967.css",
     "static/js/main.02b280b7.js"
   ]
 }
