@@ -21,7 +21,7 @@
       
       #root {
               background-color: #1090a7;
-              width: 2304px;
+              width: 2385px;
               height: 1024px;
               position: relative;
               display: flex;
@@ -97,6 +97,7 @@
       .inputdiv {
               max-width: 250px;
               padding-bottom: 170px;
+              margin-left: -50px;
       }
       
       .lastSelected {
@@ -129,7 +130,7 @@
               color: white;
               border: none;
               border-bottom: 8px solid #ff8f57;
-              font-size: 270px;
+              font-size: 240px;
               text-align: center;
               caret-color: transparent;
       }
