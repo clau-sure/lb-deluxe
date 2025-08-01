@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.scss";
 import "./assets/Noah Text Heavy.ttf"
-import logo from './assets/deluxenegro.png'
+import logo from './assets/lb-sin-deluxe.png'
 
 
 function App() {
@@ -51,14 +51,8 @@ function App() {
   };
 
   return (
-    <>
-      <div class="margins">
-      </div>
-      <div className="both">
-        <div className="logo_div">
-      <img src={logo} alt="LocoBongo logo" className="logo" />
-        </div>
-        <div className="wrapper">
+    <div className="both">
+      <div className="wrapper">
         <div className="first_row">
           {numbers(1, 10)}
         </div>
@@ -86,8 +80,11 @@ function App() {
         <div className="last_row">
           {numbers(81, 90)}
         </div>
-        </div>
+      </div>
         <div className="inputdiv">
+          <div className="logo_div">
+            <img src={logo} alt="LocoBongo logo" className="logo" />
+          </div>
           <input
             type="number"
             id="add"
@@ -97,10 +94,7 @@ function App() {
             onKeyDown={enterAdd}
           ></input>
         </div>
-      </div>
-      <div class="margins">
-      </div>
-    </>
+    </div>
   );
 }
 
