@@ -21,48 +21,34 @@
       
       #root {
               background-color: #1090a7;
-              width: 2385px;
-              height: 1024px;
+              width: 2300px;
+              height: 800px;
               position: relative;
               display: flex;
+              align-items: center;
+              justify-content: center;
       }
-
-/*       .margins {
-        width: 384px;
-        height: 1024px;
-        background-image: url('./assets/deluxenegro.png');
-        background-size: 100px 50px;
-        background-repeat: repeat;
-      } */
-
-      .margins {
-  position: relative;
-  width: 384px;
-  height: 1024px;
-}
       
-.both {
+      .both {
               display: flex;
-              box-sizing: border-box;
               flex-direction: row;
-              padding: 0 50px 50px 50px;
-              width: 1536px;
-              max-height: 1024px;
-              height: 1024px;
+              padding: 50px;
+              justify-content: space-between;
+              max-width: 924px;
+              max-height: 412px;
+              height: 412px;
               align-items: flex-end;
-              gap: 220px;
+              width: -webkit-fill-available;
+              gap: 30px;
       }
       .logo_div {
-        position: absolute;
-        right: 850px;
-        top: 30px;
         .logo {
-                width: 550px;
+                width: 240px;
         }
       }
       
       .wrapper {
-        width: 800px;
+        width: 650px;
         height: max-content;
       
         .first_row {
@@ -78,7 +64,7 @@
       }
       
       .number {
-        height: 70px;
+        height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -96,8 +82,10 @@
       
       .inputdiv {
               max-width: 250px;
-              padding-bottom: 170px;
-              margin-left: -50px;
+              padding-bottom: 30px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
       }
       
       .lastSelected {
@@ -122,7 +110,7 @@
         font-size: large;
         color:white;
         font-weight: bold;
-        font-size: 55px;
+        font-size: 25px;
       }
       
       input {
@@ -130,7 +118,7 @@
               color: white;
               border: none;
               border-bottom: 8px solid #ff8f57;
-              font-size: 240px;
+              font-size: 140px;
               text-align: center;
               caret-color: transparent;
       }
